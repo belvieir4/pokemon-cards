@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: NotoSans;
+  src: url("/fonts/NotoSans-Regular.woff"), url("/fonts/NotoSans-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url("/fonts/NotoSans-Bold.woff"), url("/fonts/NotoSans-Bold.woff2");
+  font-weight: 700;
+}
+
+body {
+  @apply bg-slate-200 font-noto;
+}
+
+#root {
+  @apply py-8 px-6;
+}
